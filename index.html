@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Antony Johnson | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Antony Johnson</div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Antony</h1>
+    <p>Web Developer | React & Django</p>
+  </section>
+
+  <main class="container">
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate full-stack developer who loves crafting modern web apps using Django, React, and JavaScript. Bringing ideas to life through clean, efficient, and scalable code.</p>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Django</span>
+        <span class="tag">React</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <div class="tags">
+        <div class="tag">Portfolio<br><small>html</small></div>
+        <div class="tag">Contact App<br><small>Python</small></div>
+        <div class="tag">StoreGlossary Shop<br><small>Django</small></div>
+        <div class="tag">Automotive Platform<br><small>HTML</small></div>
+        <div class="tag">Tourism Website<br><small>Django</small></div>
+        <div class="tag">E-commerce Site<br><small>Django</small></div>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact Me</h2>
+      <div class="social-icons">
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fas fa-file-alt"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Antony Johnson | All Rights Reserved
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("open");
+    }
+  </script>
+</body>
+</html>
+
